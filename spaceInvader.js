@@ -32,31 +32,31 @@ function drawRect() {
     context.fill();
 
 //Top right rectangle:
-context.lineWidth = 1;
-context.fillStyle = '#66FF00';
-context.beginPath();
-context.rect(225, 125, 100, 50);
-context.fill();  
+    context.lineWidth = 1;
+    context.fillStyle = '#66FF00';
+    context.beginPath();
+    context.rect(225, 125, 100, 50);
+    context.fill();  
 
 //Bottom left square:
-context.lineWidth = 1;
-context.fillStyle = '#66FF00';
-context.beginPath();
-context.rect(75, 225, 50, 50);
-context.fill();
+    context.lineWidth = 1;
+    context.fillStyle = '#66FF00';
+    context.beginPath();
+    context.rect(75, 225, 50, 50);
+    context.fill();
 
 //Bottom middle square:
-context.lineWidth = 1;
-context.fillStyle = '#66FF00';
-context.beginPath();
-context.rect(175, 225, 50, 50);
-context.fill();
+    context.lineWidth = 1;
+    context.fillStyle = '#66FF00';
+    context.beginPath();
+    context.rect(175, 225, 50, 50);
+    context.fill();
 
 //Bottom right square:
-context.lineWidth = 1;
-context.fillStyle = '#66FF00';
-context.beginPath();
-context.rect(275, 225, 50, 50);
-context.fill();
+    context.lineWidth = 1;
+    context.fillStyle = '#66FF00';
+    context.beginPath();
+    context.rect(275, 225, 50, 50);
+    context.fill();
 
 }
